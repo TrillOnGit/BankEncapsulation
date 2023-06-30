@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "E6uJ41dY8hibGX4xAWi9WDNMr9iNKzDRg1SWViPW8zOk+2lDNU1zRGdROt10fHjK5n/oRYBXTjH0e2CJsLawjw==",
+  "success": true,
+  "projectFilePath": "/home/trillion/Repos/BankEncapsulation/BankEncapsulation/BankEncapsulation.csproj",
+  "expectedPackageFiles": [
+    "/home/trillion/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.18/microsoft.netcore.app.host.linux-x64.6.0.18.nupkg.sha512"
+  ],
+  "logs": []
+}
