@@ -10,9 +10,9 @@ namespace BankEncapsulation
             
             Console.WriteLine("Type Deposit if you would like to Deposit, Withdraw if you would like to remove balance, or Get if you would like to retrieve your current balance.");
             var userInput = Console.ReadLine();
-            switch(userInput)
+            switch(userInput.ToLower())
             {
-                case "Deposit": 
+                case "deposit": 
                     Console.WriteLine($"Alright, how much would you like to deposit?");
 
                     double number = 0;
@@ -28,10 +28,10 @@ namespace BankEncapsulation
                         Console.WriteLine("Invalid input!");
                     }
                     break;
-                case "Withdraw":
+                case "withdraw":
                     if (double.TryParse(Console.ReadLine(), out number))
                     {
-                        Console.WriteLine($"You've deposited money successfully!");
+                        Console.WriteLine($"You've withdrew money successfully!");
                         myAccount.Withdraw(number);
                         Console.WriteLine(myAccount.GetBalance());
                     }
